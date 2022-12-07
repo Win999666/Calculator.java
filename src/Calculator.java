@@ -8,7 +8,7 @@ public class Calculator {
         String[] actions = {"+", "-", "/", "*"};
         String[] regexActions = {"\\+", "-", "/", "\\*"};
         Scanner scn = new Scanner(System.in);
-        System.out.print("Введите выражение: ");
+        System.out.print("Введите выражение без пробелов: ");
         String exp = scn.nextLine();
         //Определяем арифметическое действие:
         int cointZnak = 0;//количество действий в выражении
